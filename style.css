@@ -1,4 +1,4 @@
-/* Reset simples */
+
 * {
   margin: 0;
   padding: 0;
@@ -19,7 +19,7 @@ body {
 
 /* Header */
 header {
-  background-color: #f5c6a5; /* cor de exemplo, muda depois */
+  background-color: #f5c6a5;
   padding: 20px 0;
 }
 
@@ -152,7 +152,7 @@ header .container {
   gap: 20px;
 }
 
-.contato input,
+
 .contato textarea {
   padding: 10px;
   border: 1px solid #ccc;
