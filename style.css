@@ -195,9 +195,38 @@ footer p {
 
 .logo-dama{
   width: 60px;
-  margin-left: -80px;
+  margin-left: -100px;
 }
 #container h2{
  text-align: center;
  
+}
+
+.logo{
+  margin-right: -150px;
+}
+
+.login{
+    width: 10%;
+    height: 40px;
+    margin-bottom: 20px;
+    background-color: #444;
+    text-decoration: none;
+    border: none;
+    border-radius: 40px;
+    font-size: 1em;
+    font-weight: 600;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.login a{
+  text-decoration: none; /* tira o sublinhado */
+      color: white;          /* deixa o texto branco */
+      font-weight: bold;
+}
+
+.mv{
+  
 }
