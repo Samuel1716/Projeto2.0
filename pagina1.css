@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +6,6 @@
 
 body {
   font-family: Arial, sans-serif;
-  line-height: 1.6;
   color: #333;
 }
 
@@ -18,9 +16,6 @@ body {
   margin-left: 100px;
 }
 
-.container h2{
-  text-align: center;
-}
 
 /* Header */
 header {
@@ -54,7 +49,8 @@ header .container {
 
 /* Banner */
 .banner {
-  background-image: url('banner.jpg'); /* colocar imagem bonita de destaque */
+  background-image: url('banner.jpg');
+  /* colocar imagem bonita de destaque */
   background-size: cover;
   background-position: center;
   color: #600000;
@@ -98,7 +94,6 @@ header .container {
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 10px;
-  overflow: hidden;
   text-align: center;
   padding: 20px;
 }
@@ -157,51 +152,50 @@ footer p {
   font-size: 0.9rem;
 }
 
-.img-transition{
-     transition: transform 0.3s ease;
+.img-transition {
+  transition: transform 0.3s ease;
 }
-#cabeçalho{
+
+#cabeçalho {
   margin-left: 100px;
 }
 
-.logo-dama{
+.logo-dama {
   width: 80px;
   margin-left: 10px;
 }
-#container h2{
- text-align: center;
- 
+
+#container h2 {
+  text-align: center;
+
 }
 
-.logo{
+.logo {
   margin-right: -150px;
 }
 
-.login{
-    width: 10%;
-    height: 40px;
-    margin-bottom: 20px;
-    background-color: #444;
-    text-decoration: none;
-    border: none;
-    border-radius: 40px;
-    font-size: 1em;
-    font-weight: 600;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-    margin-top: 20px;
-    cursor: pointer;
+.login {
+  width: 10%;
+  height: 40px;
+  margin-bottom: 20px;
+  background-color: #444;
+  text-decoration: none;
+  border: none;
+  border-radius: 40px;
+  font-size: 1em;
+  font-weight: 600;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  margin-top: 20px;
+  cursor: pointer;
 }
 
-.login a{
-  text-decoration: none; /* tira o sublinhado */
-      color: white;          /* deixa o texto branco */
-      font-weight: bold;
+.login a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
 }
 
-.mv{
-  
-}
 
-.cabeçalho{
+.cabeçalho {
   font-size: 25px;
 }
